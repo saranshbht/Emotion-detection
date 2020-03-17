@@ -13,35 +13,12 @@ This project aims to classify the emotion on a person's face into one of **seven
 
 The repository is currently compatible with `tensorflow-2.0` and makes use of the Keras API using the `tensorflow.keras` library.
 
-* First, clone the repository and enter the folder
+* Clone the repository
 
 ```bash
 git clone https://github.com/saranshbht/Emotion-detection.git
-cd Emotion-detection
 ```
 
-<!-- * Download the FER-2013 dataset from [here](https://drive.google.com/file/d/1X60B-uR3NtqPd4oosdotpbDgy8KOfUdr/view?usp=sharing) and unzip it inside the `src` folder. This will create the folder `data`.
-
-* If you want to train this model, use:  
-
-```bash
-cd src
-python emotions.py --mode train -->
-<!-- ``` -->
-
-<!-- * If you want to view the predictions without training again, you can download the pre-trained model from [here](https://drive.google.com/file/d/1FUn0XNOzf-nQV7QjbBPA6-8GLoHNNgv-/view?usp=sharing) and then run:  
-
-```bash
-cd src
-python emotions.py --mode display
-``` -->
-
-* The folder structure is of the form:  
-  src:
-  * data (folder)
-  * `emotions.py` (file)
-  * `haarcascade_frontalface_default.xml` (file)
-  * `model.h5` (file)
 
 * This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
 
