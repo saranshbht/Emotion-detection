@@ -16,7 +16,7 @@ The repository is currently compatible with `tensorflow-2.0` and makes use of th
 * First, clone the repository and enter the folder
 
 ```bash
-git clone https://github.com/atulapra/Emotion-detection.git
+git clone https://github.com/saranshbht/Emotion-detection.git
 cd Emotion-detection
 ```
 
