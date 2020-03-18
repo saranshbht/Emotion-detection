@@ -18,7 +18,7 @@ The repository is currently compatible with `tensorflow-2.0` and makes use of th
 ```bash
 git clone https://github.com/saranshbht/Emotion-detection.git
 ```
-
+* Run the `src/emotions.ipynb` notebook 
 
 * This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
 
@@ -36,7 +36,7 @@ git clone https://github.com/saranshbht/Emotion-detection.git
 
 ## Example Output
 
-![Mutiface](imgs/multiface.png)
+![Emotions](imgs/emotions.jpg)
 
 ## References
 
